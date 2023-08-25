@@ -37,6 +37,7 @@ function AddPlacePopup(props) {
         required
         type="text"
         placeholder="Название"
+        value={name}
         onChange={handleChangeName}
       />
       <span className="popup__input-error popup-add-card-input-name-error"></span>
@@ -48,6 +49,7 @@ function AddPlacePopup(props) {
         required
         type="url"
         placeholder="Ссылка на картинку"
+        value={link}
         onChange={handleChangeLink}
       />
       <span className="popup__input-error popup-add-card-input-link-error"></span>
